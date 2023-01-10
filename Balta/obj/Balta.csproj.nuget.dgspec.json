@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sysadmin\\Desktop\\Projetos\\.NET\\Balta\\Balta.csproj": {}
+    "C:\\Users\\sysadmin\\Desktop\\Projetos\\.NET\\Orientacao-objetos\\balta\\Balta.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sysadmin\\Desktop\\Projetos\\.NET\\Balta\\Balta.csproj": {
+    "C:\\Users\\sysadmin\\Desktop\\Projetos\\.NET\\Orientacao-objetos\\balta\\Balta.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sysadmin\\Desktop\\Projetos\\.NET\\Balta\\Balta.csproj",
+        "projectUniqueName": "C:\\Users\\sysadmin\\Desktop\\Projetos\\.NET\\Orientacao-objetos\\balta\\Balta.csproj",
         "projectName": "Balta",
-        "projectPath": "C:\\Users\\sysadmin\\Desktop\\Projetos\\.NET\\Balta\\Balta.csproj",
+        "projectPath": "C:\\Users\\sysadmin\\Desktop\\Projetos\\.NET\\Orientacao-objetos\\balta\\Balta.csproj",
         "packagesPath": "C:\\Users\\sysadmin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sysadmin\\Desktop\\Projetos\\.NET\\Balta\\obj\\",
+        "outputPath": "C:\\Users\\sysadmin\\Desktop\\Projetos\\.NET\\Orientacao-objetos\\balta\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sysadmin\\AppData\\Roaming\\NuGet\\NuGet.Config"
