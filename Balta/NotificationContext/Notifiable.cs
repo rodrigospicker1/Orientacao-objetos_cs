@@ -4,6 +4,11 @@ namespace Balta.NotificationContext {
 
         public List<Notification> Notifications { get; set; }
 
+        public Notifiable(){
+
+            Notifications = new List<Notification>();
+
+        }
         
 
         public void AddNotification(Notification notification){

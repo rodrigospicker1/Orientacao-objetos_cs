@@ -33,7 +33,7 @@ namespace Balta{
 
             var careers = new List<Career>();
             var careerDotnet = new Career("Especialista .NET", "especialista-dotnet");
-            var careerItem2 = new CareerItem(2, "Aprenda OOP", "", courseOOP);
+            var careerItem2 = new CareerItem(2, "Aprenda OOP", "", null);
             var careerItem = new CareerItem(1, "Comece por aqui", "", courseCsharp);
             var careerItem3 = new CareerItem(3, "Aprenda .Net", "", courseAspNet);
             careerDotnet.Items.Add(careerItem2);
@@ -49,8 +49,18 @@ namespace Balta{
                     Console.WriteLine($"{item.Order} - {item.Title}");
                     Console.WriteLine(item.Course?.Title);                    
                     Console.WriteLine(item.Course?.Level);
+
+                    foreach (var notification in item.Notifications){
+
+                        Console.WriteLine($"{notification.Property} - {notification.Message}");
+
+                    }
                 }
             }
+
+            var PayPalSubscription = new PayPalSubscription();
+            var student = new Student();
+            student.Subscription.Add(PayPalSubscription);
 
         }
 
